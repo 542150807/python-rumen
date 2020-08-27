@@ -4,5 +4,5 @@ information = {
     'age':23,
     'city':'Shanghai',
     }
-print(information['first_name'])
-print(information.keys())
+print(information)
+

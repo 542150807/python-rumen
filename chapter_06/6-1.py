@@ -6,3 +6,5 @@ information = {
     }
 print(information)
 
+print(information['first_name'])
+print(information.keys())

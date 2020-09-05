@@ -9,11 +9,11 @@ class Die(): #类的名字大写
         side_new = randint(1,self.sides)
         print(side_new)
 
-die_1 = die(6)
+die_1 = Die(6)
 for i in range(10):
     die_1.roll_die()
 
-die_1 = die(10)
+die_1 = Die(10)
 for i in range(10):
     die_1.roll_die()
 

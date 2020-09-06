@@ -1,0 +1,5 @@
+In python you can use different functions.
+In python you can do calculations.
+In python you can order your computer to print what you want.
+In python you can open files.
+In python you can rewrite files.

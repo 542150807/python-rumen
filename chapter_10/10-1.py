@@ -2,7 +2,7 @@ filename = 'chapter_10/10-1.txt'   #或者是在前面加上chapter10，因为�
 
 with open(filename) as file_object:
     contents = file_object.read()
-    contents = contents.replace('python', 'C++')
+    contents = contents.replace('python', 'C++')  #replace方法是返回一个替换后的变量，而非修改原先的变量，所以需要再进行一次赋值操作
     print(contents.strip())
 
 with open(filename) as file_object:
